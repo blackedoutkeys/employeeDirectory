@@ -1,12 +1,13 @@
 import React from "react";
-import Table from "../src/components/Table/Table.jsx";
-import Header from "../src/components/Header/Header.jsx";
-// import Search from "./Components/Search/Search"
+import Table from "./components/Table/;
+import Header from "./components/Header/";
+import Search from "./components/Search/"
 
 function App() {
   return (
     <>
     <Header />
+    <Search />
     <Table />
     </>
   )
