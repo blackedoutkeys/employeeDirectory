@@ -1,5 +1,5 @@
 {
-  "name": "employeeDirectory",
+  "name": "employeedirectory",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -52,5 +52,6 @@
   "bugs": {
     "url": "https://github.com/blackedoutkeys/employeeDirectory/issues"
   },
-  "homepage": "https://github.com/blackedoutkeys/employeeDirectory#readme"
+  "homepage": "."
+
 }

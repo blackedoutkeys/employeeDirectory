@@ -44,8 +44,8 @@ const Table = () => {
 
     return (
         <div style={{background:'#457b9d'}} >
-
-            <input className="mt-5" onChange={ handleInputChange } value= {search} /> <SubmitButton handleSubmit={handleSubmit} />
+            <div className="container text-center pt-6">Search by Name:
+            <input className="mt-5" onChange={ handleInputChange } value= {search} /></div> <SubmitButton handleSubmit={handleSubmit} />
             <table className="container table table-hover text-center" style={{color: 'fff'}}>
             <thead>
                 <tr>
