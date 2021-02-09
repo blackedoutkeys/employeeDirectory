@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/isaacfrish.github/employeeDirectory/static/css/main.9da4ab76.chunk.css",
+    "main.js": "/isaacfrish.github/employeeDirectory/static/js/main.08f3e3bc.chunk.js",
+    "main.js.map": "/isaacfrish.github/employeeDirectory/static/js/main.08f3e3bc.chunk.js.map",
+    "runtime-main.js": "/isaacfrish.github/employeeDirectory/static/js/runtime-main.788f78ab.js",
+    "runtime-main.js.map": "/isaacfrish.github/employeeDirectory/static/js/runtime-main.788f78ab.js.map",
+    "static/css/2.150d169a.chunk.css": "/isaacfrish.github/employeeDirectory/static/css/2.150d169a.chunk.css",
+    "static/js/2.9b44a30b.chunk.js": "/isaacfrish.github/employeeDirectory/static/js/2.9b44a30b.chunk.js",
+    "static/js/2.9b44a30b.chunk.js.map": "/isaacfrish.github/employeeDirectory/static/js/2.9b44a30b.chunk.js.map",
+    "index.html": "/isaacfrish.github/employeeDirectory/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/isaacfrish.github/employeeDirectory/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.9da4ab76.chunk.css.map": "/isaacfrish.github/employeeDirectory/static/css/main.9da4ab76.chunk.css.map",
+    "static/js/2.9b44a30b.chunk.js.LICENSE.txt": "/isaacfrish.github/employeeDirectory/static/js/2.9b44a30b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.788f78ab.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.9b44a30b.chunk.js",
+    "static/css/main.9da4ab76.chunk.css",
+    "static/js/main.08f3e3bc.chunk.js"
+  ]
+}
