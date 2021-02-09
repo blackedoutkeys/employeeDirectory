@@ -1,7 +1,7 @@
 import React from "react";
-import Table from "./components/Table/Table";
-import Header from "./components/Header/Header";
-import Search from "./components/Search/Search"
+import Table from "./components/Table";
+import Header from "./components/Header";
+import Search from "./components/Search"
 import SubmitButton from "./utility/SubmitButton";
 
 function App() {
