@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useEffect, useState } from 'react';
-import API from '../utils/API';
-import Buttons from '../components/Buttons';
+import API from './utility/API';
+import SubmitButton from '../components/SubmitButton';
 
 const MainTable = () => {
 
