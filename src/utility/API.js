@@ -1,8 +1,9 @@
 import axios from "axios";
 
+const BASEURL = "https://randomuser.me/api/?results=100";
 
-function getRandomPerson(){
-        return axios.get("https://randomuser.me/api/?results=100");
-    }
-
-export default getRandomPerson;
+export default {
+    getRandomPerson: () => {
+      return axios.get(BASEURL);
+    },
+  };

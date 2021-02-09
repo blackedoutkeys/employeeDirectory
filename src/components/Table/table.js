@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useEffect, useState } from 'react';
 import API from './utility/API';
-import SubmitButton from './src/utility/SubmitButton';
+import SubmitButton from './utility/SubmitButton';
 
 const Table = () => {
 
