@@ -1,9 +1,9 @@
 /* eslint-disable no-unused-vars */
 import React, { useEffect, useState } from 'react';
 import API from './utility/API';
-import SubmitButton from '../components/SubmitButton';
+import SubmitButton from './src/utility/SubmitButton';
 
-const MainTable = () => {
+const Table = () => {
 
     const [employee, setEmployee] = useState([]);
     const [originalEmployee, setOriginalEmployee] = useState([]);
@@ -13,7 +13,7 @@ const MainTable = () => {
     },[]);
 
     function userDisplay() {
-        API.GetItems()
+        API.getRandomPerson()
             .then(res => {
                 setEmployee(res.data.results);
                 setOriginalEmployee(res.data.results)
@@ -45,7 +45,7 @@ const MainTable = () => {
     return (
         <div style={{background:'#457b9d'}} >
 
-            <input className="mt-5" onChange={ handleInputChange } value= {search} /> <Buttons handleSubmit={handleSubmit} />
+            <input className="mt-5" onChange={ handleInputChange } value= {search} /> <SubmitButton handleSubmit={handleSubmit} />
             <table className="container table table-hover text-center" style={{color: 'fff'}}>
             <thead>
                 <tr>
